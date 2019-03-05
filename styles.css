@@ -1,0 +1,39 @@
+.container {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+h2 {
+ text-align: center;
+}
+
+img {
+ max-width: 15vw;
+ max-height: 15vh;
+ margin: 5vh 5vw;
+}
+
+.rock-button {
+ background-color: green;
+ color: white;
+ text-align: center;
+ width: 25%;
+ cursor: pointer;
+}
+    
+.paper-button {
+ background-color: green;
+ color: white;
+ text-align: center;
+ cursor: pointer;
+ width: 25%;
+}   
+    
+.scissors-button {
+ background-color: green;
+ color: white;
+ text-align: center;
+ cursor: pointer;
+ width: 25%;
+}
